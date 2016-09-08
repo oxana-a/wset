@@ -1,15 +1,16 @@
+
+/* NAVBAR  */
 .navbar-list {
 	list-style: outside none none;
     margin-bottom: 0;
 }
-.has-docked-nav .navbar > .container {
-    width: 80%;
-}
-.navbar > .container {
+.navbar  .container {
     width: 100%;
+    background-color: white;
 }
 .container {
     max-width: 800px;
+    position: relative;
 }
 .navbar-item {
     float: left;
@@ -27,11 +28,7 @@
     text-decoration: none;
     text-transform: uppercase;
 }
-.has-docked-nav .navbar {
-    left: 0;
-    position: fixed;
-    top: 0;
-}
+
 .navbar, .navbar-spacer {
     background: #fff none repeat scroll 0 0;
     border-bottom: 1px solid #eee;
@@ -45,8 +42,18 @@
 	height: 150px;
 }
 .main-body{
-	margin-top: 15px;
-	padding:15px;
-	height:1000px;
+	margin-top: 3rem;
+	padding-top: 1.5rem;
 	background-color: #F2F2F2;
+}
+/* ABOUT TEXT BIT */
+.sub-about{
+	padding-top: 1.5rem;
+	padding-bottom: 1rem;
+}
+.sub-about p {
+	text-align: justify;
+}
+.sub-about h5 {
+	color:red;
 }
