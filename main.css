@@ -1,0 +1,52 @@
+.navbar-list {
+	list-style: outside none none;
+    margin-bottom: 0;
+}
+.has-docked-nav .navbar > .container {
+    width: 80%;
+}
+.navbar > .container {
+    width: 100%;
+}
+.container {
+    max-width: 800px;
+}
+.navbar-item {
+    float: left;
+    margin-bottom: 0;
+    position: relative;
+    text-align: center;
+}
+.navbar-link {
+    color: #222;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    line-height: 6.5rem;
+    margin-right: 35px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.has-docked-nav .navbar {
+    left: 0;
+    position: fixed;
+    top: 0;
+}
+.navbar, .navbar-spacer {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    display: block;
+    height: 6.5rem;
+    width: 100%;
+    z-index: 99;
+}
+.container-wset {
+	height: 150px;
+}
+.main-body{
+	margin-top: 15px;
+	padding:15px;
+	height:1000px;
+	background-color: #F2F2F2;
+}
