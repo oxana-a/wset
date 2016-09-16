@@ -1,5 +1,10 @@
 /* LOGO */  
-
+body {
+    background-color: #F2F2F2;
+}
+.header {
+    background-color: #fff;  
+}
 .container-wset {
     height: 150px;
     width:100%;
@@ -74,7 +79,7 @@ li.navbar-item {
 	padding-top: 1.5rem;
     margin-bottom: 3rem;
     padding-bottom: 1.5rem;
-	background-color: #F2F2F2;
+	background-color: #fff;
     border-radius: 1%;
 }
 /* INDEX BIT */
@@ -121,5 +126,6 @@ li.navbar-item {
 }
 .sub-about h5 {
 	color:red;
+    font-weight: bold;
 }
 
