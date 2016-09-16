@@ -49,7 +49,6 @@ li.navbar-item {
 .navbar {
     background: #fff none repeat scroll 0 0;
     border-bottom: 1px solid #D8D8D8;
-    border-top: 1px solid #D8D8D8;
     display: block;
     height: 6.5rem;
     width: 100%;
@@ -88,7 +87,7 @@ li.navbar-item {
     padding-right: 1rem;
     border-color: #666;
 }
-.sub-home:hover {
+#main-body .sub-home:hover {
     opacity:1;
 }
 .sub-home p {
@@ -97,11 +96,13 @@ li.navbar-item {
 }
 .sub-home h5 {
     color:red;
+    font-weight: bold;
 }
 .sub-home p.timestamp {
     font-size: 1rem;
     text-align: right;
     margin-bottom: 0rem;
+    opacity: 0.75;
 }
 .sub-home hr {
     margin-top: 0.5rem;
