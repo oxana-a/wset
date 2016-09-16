@@ -38,6 +38,9 @@ li.navbar-item {
     text-transform: uppercase;
     width:100%;
 }
+.navbar a.current {
+    color:red;
+}
 .navbar a.navbar-link:hover {
     color:red;
     background-color: #F2F2F2;
@@ -51,42 +54,57 @@ li.navbar-item {
     height: 6.5rem;
     width: 100%;
     z-index: 99;
-    box-shadow: 1px 1px #BDBDBD,
-                2px 2px #BDBDBD,
-                3px 3px #D8D8D8;
 }
-.navbar-spacer {
+.shadow
+{
+  -moz-box-shadow: 4px 4px 10px #999;  
+  -webkit-box-shadow: 4px 4px 10px #999;  
+  box-shadow:4px 4px 6px #999;
+}
+/*.navbar-spacer {
     background: #fff none repeat scroll 0 0;
     display: block;
     border-bottom: 1px solid #D8D8D8;
     height: 3rem;
     width: 100%;
     z-index: 99;
-}
+} */
 /* MAIN BODY */
-.main-body{
+#main-body{
 	margin-top: 3rem;
 	padding-top: 1.5rem;
+    margin-bottom: 3rem;
+    padding-bottom: 1.5rem;
 	background-color: #F2F2F2;
-    border-radius: 1.3%;
-    box-shadow: 1px 1px #BDBDBD,
-                2px 2px #BDBDBD,
-                3px 3px #BDBDBD;
+    border-radius: 1%;
 }
 /* INDEX BIT */
-.sub-home{
+
+#main-body .sub-home {
     opacity: 0.75;
     padding-top: 1.5rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-color: #666;
 }
 .sub-home:hover {
     opacity:1;
 }
 .sub-home p {
+    margin-bottom: 1.5rem;
     text-align: justify;
 }
 .sub-home h5 {
     color:red;
+}
+.sub-home p.timestamp {
+    font-size: 1rem;
+    text-align: right;
+    margin-bottom: 0rem;
+}
+.sub-home hr {
+    margin-top: 0.5rem;
 }
 /* ABOUT TEXT BIT */
 .sub-about{
