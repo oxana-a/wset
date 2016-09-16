@@ -61,9 +61,9 @@ li.navbar-item {
 }
 .shadow
 {
-  -moz-box-shadow: 4px 4px 10px #999;  
-  -webkit-box-shadow: 4px 4px 10px #999;  
-  box-shadow:4px 4px 6px #999;
+    -webkit-box-shadow: 0px 4px 6px 0px #999;
+    -moz-box-shadow: 0px 4px 6px 0px #999;
+    box-shadow: 0px 4px 6px 0px #999;
 }
 /*.navbar-spacer {
     background: #fff none repeat scroll 0 0;
